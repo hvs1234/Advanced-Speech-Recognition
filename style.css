@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.hero
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1
+{
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    font-family: 'Mate SC';
+}
+.hero h1 span
+{
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    font-family: 'Mate SC';
+}
+
+textarea
+{
+    width: 800px;
+    height: 350px;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    background: #403d84;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.row
+{
+    width: 750px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+select
+{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 35px;
+    padding: 0 20px;
+    appearance: none;
+    cursor: pointer;
+}
+
+button
+{
+    background: #ff2963;
+    color: #fff;
+    font-family: 'Dosis';
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+button:hover
+{
+    background: #ff1856;
+}
